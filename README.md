@@ -7,13 +7,9 @@ Requests Python Cielo
 
 * [Principais recursos](#principais-recursos)
 * [Limitações](#limitações)
-* [Exemplos](#exemplos)
+* [Exemplo](#exemplo)
     * [Criando um pagamento com cartão de crédito](#criando-um-pagamento-com-cartão-de-crédito)
-    * [Criando um pagamento recursivo com cartão de crédito](#criando-um-pagamento-recursivo-com-cartão-de-crédito)
-    * [Criando um agendamento de pagamento recursivo com cartão de crédito](#criando-um-agendamento-de-pagamento-recursivo-com-cartão-de-crédito)
-    * [Gerando token de cartão de crédito e criando um pagamento com o token](#gerando-token-de-cartão-de-crédito-e-criando-um-pagamento-com-o-token)
-    * [Gerando um boleto simples](#gerando-um-boleto-simples)
-    * [Gerando um boleto completo](#gerando-um-boleto-completo)
+
 * [Manual Oficial da Cielo](#manual-oficial-da-cielo)
 
 ## Principais recursos
