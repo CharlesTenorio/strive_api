@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class ComprarCredito(models.Model):
     valor = models.DecimalField(max_digits=11, decimal_places=3)
     qtd_parcela = models.PositiveIntegerField(default=1, blank=True, null=True)
