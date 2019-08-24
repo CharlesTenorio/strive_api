@@ -15,4 +15,5 @@ class TestCielo(TestCase):
     def test_compra_autorizada(self):
         resposta_cielo, trasacao = comprar_credito(10, 'Martoele C. Pixão', '0662821825086128', '279',
                                                    'HiperCard', '07/2020', 200, 1)
+
         assert resposta_cielo == 'Autorizacao negada'
