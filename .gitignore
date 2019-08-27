@@ -91,4 +91,5 @@ ENV/
 example/teste.py
 
 .idea/*
-strive_cartao.pem
+key_api.pem
+dbst.sqlite3
