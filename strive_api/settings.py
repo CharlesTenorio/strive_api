@@ -19,7 +19,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '18.224.8.207']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '3.16.200.200']
 # Application definition
 
 INSTALLED_APPS = [
