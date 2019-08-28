@@ -30,7 +30,7 @@ def comprar_credito(id_compra, cliente, numero_cartao, seguranca, bandeira, vali
         resposa = r.json()
         codigo_transacao = resposa["Payment"]["Tid"]
         msg_retorno = resposa["Payment"]["ReturnMessage"]
-        print(r.status_code)
+
         return msg_retorno, codigo_transacao
     except Exception as e:
         print(e)
@@ -54,7 +54,7 @@ def cartao_hoodid(id_compra, cliente, numero_cartao, seguranca, bandeira, valida
         resposa = r.json()
         codigo_transacao = resposa["Payment"]["Tid"]
         msg_retorno = resposa["Payment"]["ReturnMessage"]
-        print(r.status_code)
+
         return msg_retorno, codigo_transacao
     except Exception as e:
         print(e)
